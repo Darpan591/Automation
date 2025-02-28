@@ -8,7 +8,7 @@ driver.get("https://tekydog.com/")
 time.sleep(3)
 
 #search product
-driver.find_element("xpath", "//input[@class='input-group-field boost-pfs-search-box ui-autocomplete-input'][1]").click()
+driver.find_element("xpath", "//input[@id='boost-pfs-search-box-0']").click()
 time.sleep(2)  
 driver.find_element("xpath", "//input[@class='input-group-field boost-pfs-search-box ui-autocomplete-input'][1]").send_keys("Insyte Retail Rainproof Strobe - Red")
 time.sleep(2)
